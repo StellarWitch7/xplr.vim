@@ -16,7 +16,7 @@ if !(exists("g:nnn#action"))
 endif
 
 if !(exists("g:nnn#command"))
-    let g:nnn#command = 'nnn'
+    let g:nnn#command = 'xplr'
 endif
 
 if !(exists("g:nnn#replace_netrw"))
