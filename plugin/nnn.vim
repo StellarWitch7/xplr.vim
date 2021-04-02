@@ -34,6 +34,9 @@ endif
 command! -bar -nargs=? -complete=dir NnnPicker call nnn#pick(<f-args>)
 command! -bar -nargs=? -complete=dir Np call nnn#pick(<f-args>)
 
+command! -bar -nargs=? -complete=dir XplrPicker call nnn#pick(<f-args>)
+command! -bar -nargs=? -complete=dir Xp call nnn#pick(<f-args>)
+
 if g:nnn#set_default_mappings
     nnoremap <silent> <leader>n :NnnPicker<CR>
 endif
