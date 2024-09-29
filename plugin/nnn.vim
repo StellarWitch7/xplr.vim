@@ -4,7 +4,7 @@ endif
 let g:nnn#loaded = 1
 
 if !(exists("g:nnn#set_default_mappings"))
-    let g:nnn#set_default_mappings = 1
+    let g:nnn#set_default_mappings = 0
 endif
 
 if !(exists("g:nnn#layout"))
@@ -20,11 +20,11 @@ if !(exists("g:nnn#command"))
 endif
 
 if !(exists("g:nnn#replace_netrw"))
-    let g:nnn#replace_netrw = 0
+    let g:nnn#replace_netrw = 1
 endif
 
 if !(exists("g:nnn#statusline"))
-    let g:nnn#statusline = 1
+    let g:nnn#statusline = 0
 endif
 
 if !(exists("g:nnn#shell"))
